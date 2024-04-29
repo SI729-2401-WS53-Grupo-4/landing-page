@@ -29,3 +29,40 @@ ScrollReveal().reveal(".header__container h1", {
   ...scrollRevealOption,
   delay: 500,
 });
+// room container
+ScrollReveal().reveal(".roomcard", {
+    ...scrollRevealOption,
+    interval: 500,
+  });
+  
+  // service container
+  ScrollReveal().reveal(".servicelist li", {
+    ...scrollRevealOption,
+    interval: 500,
+    origin: "right",
+  });
+// about container
+ScrollReveal().reveal(".aboutimage img", {
+    ...scrollRevealOption,
+    origin: "left",
+  });
+  
+  ScrollReveal().reveal(".aboutcontent .sectionsubheader", {
+    ...scrollRevealOption,
+    delay: 500,
+  });
+  
+  ScrollReveal().reveal(".aboutcontent .sectionheader", {
+    ...scrollRevealOption,
+    delay: 1000,
+  });
+  
+  ScrollReveal().reveal(".aboutcontent .sectiondescription", {
+    ...scrollRevealOption,
+    delay: 1500,
+  });
+  
+  ScrollReveal().reveal(".aboutbtn", {
+    ...scrollRevealOption,
+    delay: 2000,
+  });
